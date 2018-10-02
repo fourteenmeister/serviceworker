@@ -1,0 +1,26 @@
+{
+  "name": "serviceworker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "deploy": "firebase deploy",
+    "server": "node -r dotenv/config server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourteenmeister/serviceWorker.git"
+  },
+  "author": "Andrey Kamaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fourteenmeister/serviceWorker/issues"
+  },
+  "homepage": "https://github.com/fourteenmeister/serviceWorker#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "firebase-admin": "^8.3.0",
+    "web-push": "^3.3.5"
+  }
+}
