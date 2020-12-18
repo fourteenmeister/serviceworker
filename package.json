@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/fourteenmeister/serviceWorker#readme",
   "dependencies": {
-    "dotenv": "^8.0.0",
-    "firebase-admin": "^8.3.0",
-    "web-push": "^3.3.5"
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^9.4.2",
+    "web-push": "^3.4.4"
   }
 }
